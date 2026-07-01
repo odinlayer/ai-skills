@@ -12,10 +12,11 @@ clarity, maintainability, and consistency while preserving exact behavior.
 - `SKILL.md` - Pi-compatible code simplification instructions.
 - `README.md` - Human-facing documentation and source lineage.
 
-## Adaptation Notes
+## Features
 
-- Adapted for Pi client workflows and generic repositories.
-- Keeps the upstream intent: simplify code without functional drift.
+- Post-implementation simplification workflow for readability and maintainability.
+- Behavior-preserving refactor guidance.
+- Consistency checks for naming, structure, and control flow clarity.
 
 ## Source Lineage
 

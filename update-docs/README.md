@@ -15,11 +15,12 @@ License: GPL-3.0-or-later
 - `SKILL.md` - Pi-compatible merged docs workflow (sync + create + visual mode).
 - `README.md` - Human-facing notes and source lineage.
 
-## Adaptation Notes
+## Features
 
-- Adapted for OdinLayer skill format and git-based repositories.
-- Supports `README.md`, `docs/`, API references, and optional standalone HTML docs.
-- Includes guidance for SVG architecture/workflow diagrams and endpoint formatting.
+- Sync mode for updating existing docs from local code changes.
+- Create mode for generating missing technical docs.
+- Optional visual mode for standalone HTML + SVG technical documentation.
+- API reference patterns, workflow docs, and architecture documentation guidance.
 
 ## Source Lineage
 

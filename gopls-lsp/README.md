@@ -12,6 +12,12 @@ navigation, and safer refactors in Go codebases.
 - `SKILL.md` - Pi-compatible gopls setup and usage guidance.
 - `README.md` - Human-facing documentation and source lineage.
 
+## Features
+
+- `gopls` setup and workspace integration guidance.
+- Diagnostics, symbol navigation, and code-intelligence workflows.
+- Safer refactor support for Go codebases.
+
 ## Source Lineage
 
 - Upstream plugin: `gopls-lsp`

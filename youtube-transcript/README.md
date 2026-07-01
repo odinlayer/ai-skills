@@ -14,10 +14,11 @@ with explicit user confirmation.
 - `SKILL.md` - Pi-compatible transcript workflow instructions.
 - `README.md` - Human-facing notes and source lineage.
 
-## Adaptation Notes
+## Features
 
-- Adapted from the source skill to match this repo's skill format.
-- Kept the same operational intent with simplified, platform-neutral guidance.
+- Manual-caption first workflow with fallback to auto captions.
+- Optional transcript cleanup and deduplication guidance.
+- Explicit user-confirmed fallback path for Whisper-style transcription.
 
 ## Source Lineage
 

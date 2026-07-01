@@ -12,6 +12,12 @@ server workflows using rust-analyzer.
 - `SKILL.md` - Pi-compatible rust-analyzer LSP workflow.
 - `README.md` - Human-facing documentation and source lineage.
 
+## Features
+
+- `rust-analyzer` setup and environment checks.
+- Diagnostics and navigation workflows for Rust projects.
+- Refactor and code-intelligence guidance for safer changes.
+
 ## Source Lineage
 
 - Upstream plugin: `rust-analyzer-lsp`

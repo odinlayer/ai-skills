@@ -13,10 +13,11 @@ review.
 - `SKILL.md` - Pi-compatible feature development workflow.
 - `README.md` - Human-facing documentation and source lineage.
 
-## Adaptation Notes
+## Features
 
-- Adapted for Pi workflows without Anthropic-specific slash-command behavior.
-- Preserves the staged process from request clarification to delivery summary.
+- Staged feature-delivery workflow from discovery to implementation.
+- Architecture and tradeoff checkpoints before coding.
+- Delivery quality checks and final implementation summary guidance.
 
 ## Source Lineage
 

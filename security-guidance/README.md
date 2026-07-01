@@ -13,15 +13,17 @@ remediation guidance.
 - `SKILL.md` - Pi-compatible security review workflow.
 - `README.md` - Human-facing documentation and source lineage.
 
-## Adaptation Notes
+## Features
 
-- Adapted from plugin/hook-centric behavior to direct Pi skill workflow.
-- Keeps the three core ideas: quick pattern checks, deeper flow review, and
-  actionable severity-based output.
-- Keeps original intent as diff-based secure code review, with compact additions
-  for API/auth/dependency checks and lightweight risk triage.
+- Diff-based secure code review before merge/release.
+- Pattern and data-flow analysis for high-risk vulnerability classes.
+- API/auth/session/token review checks with tenant/authorization focus.
+- Dependency and supply-chain risk signals (including dependency confusion indicators).
+- Lightweight risk triage and standardized remediation-oriented output.
 
 ## Source Lineage
 
 - Upstream plugin: `security-guidance`
 - Source: https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance
+- Additional enrichment references:
+  - https://github.com/mukul975/Anthropic-Cybersecurity-Skills

@@ -19,10 +19,11 @@ and validation across those formats into one skill.
 - `SKILL.md` - Pi-compatible unified Office document workflow.
 - `README.md` - Human-facing notes and lineage.
 
-## Adaptation Notes
+## Features
 
-- Built as a single-skill merge for your repo layout.
-- Adapted to Pi usage (not tied to Anthropic-only runtime hooks/commands).
+- Unified handling for DOCX, PDF, PPTX, and XLSX workflows.
+- Cross-format creation, editing, extraction, conversion, and validation guidance.
+- Single-skill structure for office-document tasks in mixed repositories.
 
 ## Source Lineage
 

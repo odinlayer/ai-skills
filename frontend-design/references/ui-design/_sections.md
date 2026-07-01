@@ -25,10 +25,10 @@ The section ID (in parentheses) is the filename prefix used to group rules.
 **Impact:** HIGH
 **Description:** Mobile traffic exceeds 60% globally. Non-responsive designs lose majority of users and fail Google's mobile-first indexing.
 
-## 5. Typography & Font Loading (typo)
+## 5. Typography, Locale & Font Loading (typo)
 
 **Impact:** MEDIUM-HIGH
-**Description:** Font loading directly affects LCP and CLS. Poor typography reduces readability and comprehension by 25%+.
+**Description:** Font loading and locale-aware formatting directly affect readability, trust, and Core Web Vitals. Poor typography and hardcoded formats reduce comprehension and global usability.
 
 ## 6. Color & Contrast (color)
 

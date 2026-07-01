@@ -14,10 +14,12 @@ validation via behavior-equivalence tests.
 - `SKILL.md` - Pi-compatible skill instructions.
 - `README.md` - Human-facing usage notes and source lineage.
 
-## Adaptation Notes
+## Features
 
-- Adapted for Pi client usage (model-agnostic, no Anthropic-only hooks).
-- Focuses on reusable workflow steps instead of slash-command internals.
+- Legacy-system assessment and modernization preflight workflow.
+- Architecture and business-rule extraction before implementation changes.
+- Execution path selection (`transform`, `reimagine`, `uplift`).
+- Validation guidance focused on behavior equivalence and risk control.
 
 ## Source Lineage
 

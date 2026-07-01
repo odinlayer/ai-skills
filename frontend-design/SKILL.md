@@ -1,6 +1,6 @@
 ---
 name: frontend-design
-description: Consolidated UI/UX + Tailwind CSS design and performance guidance for building or reviewing user-facing web interfaces. Use when designing layouts, responsive behavior, accessibility, forms, interaction patterns, Tailwind architecture, or Core Web Vitals optimizations.
+description: Consolidated UI/UX + Tailwind CSS design and performance guidance for building or reviewing user-facing web interfaces. Trigger when asked to "review my UI", "check accessibility", "audit design", "review UX", "improve this layout", "make this look professional", "fix responsiveness", "improve Core Web Vitals", "improve Tailwind structure", or when building/redesigning pages, dashboards, forms, and app views.
 license: MIT
 metadata:
   repository: https://github.com/odinlayer/ai-skills/tree/main/frontend-design
@@ -17,6 +17,7 @@ Use this skill for web UI work where quality matters: structure, usability, Tail
 - Tailwind CSS architecture and utility usage
 - Accessibility and semantic HTML quality
 - Responsive behavior and mobile ergonomics
+- URL/state deep-linking and interaction safety on touch devices
 - Core Web Vitals and frontend performance
 
 ## Constraints
@@ -24,6 +25,7 @@ Use this skill for web UI work where quality matters: structure, usability, Tail
 - Do not assume React, Next.js, or any specific framework.
 - Use framework-agnostic guidance unless the user explicitly requests framework specifics.
 - Favor HTML, CSS, and Tailwind patterns that transfer across stacks.
+- Do not prescribe framework-specific hydration/state libraries by default.
 
 ## Operating Model
 
@@ -69,6 +71,10 @@ Capture:
 
 - Run accessibility checks and keyboard flow review.
 - Validate responsive behavior and text fit.
+- Validate long-content resilience (`min-w-0`, truncation/clamping, word wrapping).
+- Validate touch-safe interaction behavior and safe-area padding.
+- Validate URL/state deep-link behavior for filters/tabs/pagination where relevant.
+- Validate locale formatting with `Intl.*` when rendering dates, numbers, or currency.
 - Validate Core Web Vitals and interaction latency.
 
 ## Priority Rule Sets
@@ -96,6 +102,16 @@ This skill keeps a focused UI/UX subset and preserves the complete Core Web Vita
 - `cwv-critical-css`
 - `cwv-lazy-load-offscreen`
 - `cwv-responsive-images`
+
+Additional framework-agnostic guardrails:
+
+- `access-live-updates-and-skip-links`
+- `form-input-ergonomics`
+- `layout-content-resilience`
+- `layout-url-state-deeplinks`
+- `resp-touch-safe-areas`
+- `anim-motion-guardrails`
+- `typo-locale-formatting`
 
 ### Tailwind Rules (Curated)
 
@@ -152,9 +168,11 @@ Apply relevant `cwv-*`, `bundle-*`, and `build-*` references when these targets 
 
 - Layout and hierarchy reflect user goals, not template defaults.
 - Keyboard navigation and visible focus states work across primary flows.
+- Async state changes are announced when needed (`aria-live`), and skip links exist for dense pages.
 - Color and typography meet readability standards.
 - Tailwind usage is maintainable, token-driven, and avoids unnecessary bloat.
 - Responsive behavior is stable across mobile and desktop.
+- Interactive behavior is safe on touch devices and notches/safe areas.
 - Performance tradeoffs are explicit and measurable.
 
 ## Output

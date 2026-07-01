@@ -12,6 +12,12 @@ language-server workflows with `typescript-language-server`.
 - `SKILL.md` - Pi-compatible TypeScript LSP setup and usage guidance.
 - `README.md` - Human-facing documentation and source lineage.
 
+## Features
+
+- TypeScript language-server setup and runtime prerequisites.
+- Diagnostics and navigation for TypeScript/JavaScript codebases.
+- Refactor and symbol-driven editing workflows.
+
 ## Source Lineage
 
 - Upstream plugin: `typescript-lsp`

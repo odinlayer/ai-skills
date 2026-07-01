@@ -20,7 +20,15 @@ Use this skill only for authorized security work on WordPress environments. The
 default mode is read-only evidence collection. Remediation and active
 exploitation checks require explicit approval and an agreed test scope.
 
-## Source Skill Lineage
+## Features
+
+- Ubuntu host compromise triage and persistence analysis.
+- WordPress integrity and malware review across core, plugins, themes, and uploads.
+- IOC extraction and timeline correlation for investigation reporting.
+- Controlled remediation planning with verification pass.
+- Client-ready reporting structure for findings and residual risk.
+
+## Source Lineage
 
 This workflow consolidates procedures adapted from:
 

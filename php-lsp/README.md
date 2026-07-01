@@ -12,6 +12,12 @@ Intelephense for diagnostics, symbol navigation, and safer refactoring.
 - `SKILL.md` - Pi-compatible PHP LSP setup and usage instructions.
 - `README.md` - Human-facing documentation and source lineage.
 
+## Features
+
+- Intelephense-based PHP language-server setup guidance.
+- Diagnostics, symbol lookup, and navigation workflows.
+- Refactor-oriented usage patterns for safer edits.
+
 ## Source Lineage
 
 - Upstream plugin: `php-lsp`

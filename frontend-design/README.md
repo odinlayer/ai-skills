@@ -21,13 +21,15 @@ License: MIT
 - `scripts/generate_palette.py` - semantic palette generator (seed hue based).
 - `scripts/verify_palette.py` - palette verification helper.
 
-## Adaptation Notes
+## Features
 
-- Merged into a single `frontend-design` skill with namespaced references.
-- Keeps focus on UI/UX, Tailwind, and performance best practices.
-- Removes React/Next.js assumptions from the main skill workflow.
-- Uses framework-agnostic language for broad applicability.
-- Keeps the skill compact by using a curated reference subset instead of full upstream dumps.
+- Framework-agnostic UI/UX guidance for professional, consistent web interfaces.
+- Tailwind-focused architecture and token-driven styling practices.
+- Full Core Web Vitals rule coverage through curated references.
+- Mobile/touch safety, URL-state deep-linking, and long-content resilience guidance.
+- Locale-aware formatting and accessibility updates (`aria-live`, skip links).
+- Compact web-taste playbook for visual hierarchy and product feel.
+- Palette generation and validation helpers for cohesive theming.
 
 ## Source Lineage
 
@@ -44,3 +46,6 @@ License: MIT
   https://github.com/pproenca/dot-skills/tree/master/skills/.curated/web-taste
 - Tailwind:
   https://github.com/pproenca/dot-skills/tree/master/skills/.curated/tailwind
+
+4) Additional review heuristics adapted from:
+- https://github.com/vercel-labs/web-interface-guidelines

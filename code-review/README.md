@@ -12,10 +12,11 @@ parallel review lanes and confidence scoring to reduce false positives.
 - `SKILL.md` - Pi-compatible review workflow instructions.
 - `README.md` - Human-facing documentation and source lineage.
 
-## Adaptation Notes
+## Features
 
-- Adapted for Pi client usage, not tied to Anthropic slash commands.
-- Retains the confidence-scoring pattern and high-signal output style.
+- Structured PR/diff review workflow with parallel review lanes.
+- Evidence-first findings with confidence signaling.
+- High-signal output format for actionable remediation.
 
 ## Source Lineage
 
