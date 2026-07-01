@@ -1,10 +1,10 @@
-# wordpress-audit
+# wordpress-security-audit
 
-Repository: https://github.com/odinlayer/ai-skills/tree/main/wordpress-audit
+Repository: https://github.com/odinlayer/ai-skills/tree/main/wordpress-security-audit
 
 License: MIT
 
-`wordpress-audit` is an end-to-end WordPress security audit workflow for
+`wordpress-security-audit` is an end-to-end WordPress security audit workflow for
 malware-infected sites on dedicated Ubuntu servers. It covers host forensics,
 persistence checks, WordPress integrity review, IOC extraction, remediation
 planning, and final client-ready reporting.

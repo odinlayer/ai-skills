@@ -18,6 +18,8 @@ remediation guidance.
 - Adapted from plugin/hook-centric behavior to direct Pi skill workflow.
 - Keeps the three core ideas: quick pattern checks, deeper flow review, and
   actionable severity-based output.
+- Keeps original intent as diff-based secure code review, with compact additions
+  for API/auth/dependency checks and lightweight risk triage.
 
 ## Source Lineage
 

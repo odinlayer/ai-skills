@@ -1,13 +1,13 @@
 ---
-name: wordpress-audit
+name: wordpress-security-audit
 description: End-to-end WordPress security audit workflow for malware-infected sites on dedicated Ubuntu servers, including host forensics, persistence checks, WordPress integrity review, and final client-ready reporting.
 license: MIT
 metadata:
-  repository: https://github.com/odinlayer/ai-skills/tree/main/wordpress-audit
+  repository: https://github.com/odinlayer/ai-skills/tree/main/wordpress-security-audit
   compatibility: Pi skill format; intended for Linux shell environments with WordPress on dedicated Ubuntu servers and authorized security assessment scope.
 ---
 
-# WordPress Audit (Ubuntu, Post-Infection)
+# WordPress Security Audit (Ubuntu, Post-Infection)
 
 Use this skill to run a structured security audit for a WordPress website hosted on a dedicated Ubuntu server after suspected or confirmed malware infection.
 
